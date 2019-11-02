@@ -1,0 +1,732 @@
+.container-ac {
+    font-family: Marko One;
+    font-size: 30px;
+    color: 
+    black;
+    padding-bottom: 19px;
+}
+.container-az {
+    font-family: Marko One;
+    font-size: 30px;
+    color: 
+    black;
+    padding-bottom: 11px;
+    text-align: center;
+}
+.zx {
+    text-align: center;
+    font-size: 18px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+.cv {
+    font-size: 17px;
+    margin: 18px auto;
+}
+.vc {
+    font-size: 17px;
+    color: 
+    black;
+}
+.bf {
+    margin: 0 -32px auto;
+}
+
+.ar {
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container-art {
+    background-color: 
+    #e1e0e0;
+  }
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  /*! max-width: 1000px; */
+  position: relative;
+  margin: auto;
+  padding-top: 64px;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 38px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+
+
+
+
+/* Center website */
+.main {
+  /*! max-width: 1000px; */
+  margin: auto;
+  background-color: #ede8f0;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 11px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.container-i {
+  position: relative;
+  width: 100%;
+}
+
+.imag {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(20,20,20,.7);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.container-i:hover .overlay {
+  height: 100%;
+}
+
+.texti {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+ /* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+} 
+
+
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #3F6EC8;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+
+
+.color-1 {
+  background: #0090C0;
+}
+.btn {
+  position: relative;
+  z-index: 0;
+  margin: 12px 29px;
+  padding: 14px 36px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  background: #4f64d7;
+  border: 3px solid #ffffff;
+  color: #ffffff;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.btn:after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+/* Button 1b */
+.btn-1b::after {
+  width: 100%;
+  height: 0;
+  top: 0;
+  left: 0;
+  background: #ca702f;
+}
+.btn-1b:hover {
+  color: #F0F3F4;
+}
+.btn-1b:hover::after {
+  height: 100%;
+}
+.btn-1a:hover {
+  background: #ffffff;
+  color: #0090C0;
+}
+
+.container-Portfolio {
+    text-align: center;
+    padding-bottom: 30px;
+    padding: 22px;
+}
+body{
+
+  background-image: url("../img/background.jpg");
+}
+
+
+.container-abs {
+  position: relative;
+  width: 100%;
+}
+
+.im {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay-x {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: rgba(20,20,20,.7);
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+
+.container-abs:hover .overlay-x {
+  bottom: 0;
+  height: 100%;
+}
+
+.text-x {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  /*! white-space: nowrap; */
+}
+
+.ccc {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    color: 
+    #3a3a3a;
+    font-weight: 300;
+    padding-left: 30px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.lp {
+    padding: 35px;
+    width: 100%;
+    display: block;
+    overflow: hidden;
+}
+
+.pl {
+    padding-bottom: 20px;
+    margin: 52px 26px auto;
+    border: 3px solid #d9d8d8;
+    padding: 3px;
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab|Oxygen|-apple-system|BlinkMacSystemFont|"Segoe UI"|"Helvetica Neue"|"Apple Color Emoji"');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+
+ }
+.container-f {
+    /*! max-width: 70rem; */
+    margin: 0 auto;
+    /*! min-height: 100vh; */
+    padding-right: 2.0rem;
+    padding-left: 2.0rem;
+    /*! overflow: hidden; */
+    /*! margin-top: 46px; */
+}
+h1 {
+    text-align: center;
+    margin-bottom: 1.5rem ;
+    font-size: 3rem;
+    height: 4rem;
+
+}
+h1:before{
+    content:" ";
+    position: absolute;
+    width:80px;
+    height: 3px;
+    background-color: #404040;
+    margin-top: 70px;
+}
+.contact {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+
+}
+.contact .address {
+    display: flex;
+    font-family: 'Oxygen';
+    height: 3.5rem;
+    min-width: 15rem;
+    margin-top: 1rem ;
+    margin-bottom: 1rem;
+}
+.contact .address .label{
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-top: 0;
+}
+.contact .address p{
+    margin-top: 0.1rem;
+    margin-left: 0.8rem;
+    padding: 0.2rem;
+}
+
+
+
+@media screen and (max-width: 700px) {
+  .container-f {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*! padding: 0.8rem; */
+  }
+  h1 {
+    font-size: 2.5rem;
+  }
+  .contact  {
+    flex-direction: column;
+
+  }
+
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*! margin-top: 1rem; */
+    margin-bottom: 1rem;
+}
+.form >.informations{
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    margin-top: 0.5rem;
+    /*border:1px solid red;*/
+
+}
+.emptyinput {
+  /* Your shadow css here */
+  border-color: #900;
+  outline: 0;
+  -moz-box-shadow:inset 0 1px 1px;
+  -webkit-box-shadow:inset 0 1px 1px rgba(204, 0, 0,.075), 0 0 8px rgba(230, 0, 0,.6);
+  box-shadow:inset 0 1px 1px rgba(204, 0, 0,.075), 0 0 8px rgba(230, 0, 0,.6);
+}
+
+textarea:focus,input:focus {
+  border-color: #999;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(100,100,100,.6);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(100,100,100,.6);
+}
+
+.form >.informations >.name , .form >.informations > .email ,.form >.informations > .jubject{
+    width: 100%;
+    /*border: 1px solid blue;*/
+}
+
+
+
+.form .informations .name > input, .form .informations  .email>input  {
+
+    height: 4rem;
+    width: 90%;
+    border: 1px solid #ccc;
+    padding-left: 1.2rem;
+
+    margin-left: 0px;
+
+}
+.form .informations  .email>input{
+    width: 100%;
+}
+
+
+.form >.informations >.name >.star, .form >.informations  >.email >.star {
+    color: red;
+}
+.form .informations  .email>span{
+    position: absolute;
+    margin-left:20px;
+}
+.form .informations .name> .check, .informations  .email >.check {
+    color:#2ECC40;
+}
+
+.form .informations .name >span, .form .informations .email> span{
+    margin-left: 0.5rem;
+    font-size: 30px;
+    position: absolute;
+    display: inline;
+
+}
+
+.form .message {
+    width: 100%;
+    height: 10rem;
+}
+
+.form .msgerrors {
+    margin-left: 0.1rem;
+    margin-top: 0.5rem;
+    color:#ffe300;
+
+}
+.form .btn{
+
+    margin-top: 5rem;
+    height: 3rem;
+    width: 10rem;
+    color: #fff;
+    background-color: #404040;
+    border:none;
+    cursor: pointer;
+}
+
+.form .btndisabled{
+    margin-top: 5rem;
+    height: 3rem;
+    width: 10rem;
+    color: #fff;
+    background-color: #bfbfbf;
+    border:none;
+    cursor: not-allowed;
+}
+
+
+.form .message > textarea{
+    margin-top: 1.5rem;
+    border:1px solid #ccc;
+    height: 100%;
+    width: 100%;
+    padding-left: 1.5rem;
+    padding-top: 1.2rem;
+}
+
+
+@media screen and (max-width: 700px) {
+    .form  {
+        flex-direction: column;
+        align-items: center;
+    }
+    .form .informations {
+        flex-direction: column;
+        width:90vw;
+    }
+
+    .form .informations .name > input, .form .informations .email  > input{
+        min-height: 3rem;
+        width: 100%;
+        border: 1px solid #ccc;
+        padding-left: 1.5rem;
+    }
+}
+
+.f-container {
+   background-image: url("../image/contact.png");
+   overflow: hidden;
+   
+   width: 100%;
+   height: 577px;
+   background-size: 100% 100%;
+   margin-top: 12px;
+}
+.sunlite {
+    /*! background-color: 
+    black; */
+    overflow: hidden;
+}
+
+.w3-b {
+    font-size: 18px;
+    /*! font-weight: 600; */
+    color: 
+    #000;
+    margin-top: 12px;
+    position: relative;
+    padding-left: 28px;
+    font-family: 'Open Sans', sans-serif;
+}
+.w3-a {
+    text-align: left;
+    /*! font-size: 40px; */
+    padding-left: 23px;
+    font-family: Marko One;
+    font-size: 30px;
+    color: black;
+    margin-top: 18px;
+}
+
+.w3-it {
+    margin: 30px auto;
+    position: relative;
+}
+.w3-it::before {
+    content: "";
+    border: 1px solid 
+    #fff;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+}
+
+.container-a {
+    font-family: Marko One;
+    font-size: 30px;
+    color: 
+    black;
+}
+
+.w3-quarter.w3-container {
+    padding: 45px;
+    color: white;
+}
+
+.w3-footer {
+   background-image: url("../img/a1.jpg");
+
+overflow: hidden;
+width: 100%;
+background-image: linear-gradient( rgb(0, 0, 0), rgba(0, 0, 0, 0.5)), url("../img/a1.jpg");
+
+   overflow: hidden;
+   background-size: 100% 100%;
+   width: 100%;
+}
+.w3-small a {
+    font-size: 15px;
+    padding: 4px;
+    color: 
+    #3F6EC8 !important;
+
+  }
+.input-field {
+  /*! width: 100%; */
+  padding: 10px;
+  outline: none;
+}
+.input-container i {
+  padding: 15px;
+  background: dodgerblue;
+  color: white;
+  min-width: 48px;
+  text-align: center;
+}
+.container-b {
+    font-size: 19px;
+}
+
+.w3-b i {
+    font-size: 20px;
+    color: 
+    #f47d42;
+}
